@@ -11,4 +11,6 @@ feature 'public accesses bike' do
     expect { station.release_bike }.to raise_error 'No bikes available'
   end
 
+  
+
 end

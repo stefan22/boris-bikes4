@@ -25,4 +25,9 @@ describe DockingStation do
     expect(subject.capacity).to eq DockingStation::Capacity
   end
 
+  it 'adjust capacity at will' do
+    subject.capacity = 50
+    expect(subject.capacity).to eq 50
+  end
+
 end
